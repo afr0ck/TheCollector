@@ -21,7 +21,6 @@
     {"id":{"name":"spr_bgTree3","path":"sprites/spr_bgTree3/spr_bgTree3.yy",},"order":13,},
     {"id":{"name":"scr_WallCollisionCheck","path":"scripts/scr_WallCollisionCheck/scr_WallCollisionCheck.yy",},"order":1,},
     {"id":{"name":"rm_Level1","path":"rooms/rm_Level1/rm_Level1.yy",},"order":2,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -37,9 +36,8 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"rm_Level1","path":"rooms/rm_Level1/rm_Level1.yy",},
     {"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+    {"name":"rm_Level1","path":"rooms/rm_Level1/rm_Level1.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

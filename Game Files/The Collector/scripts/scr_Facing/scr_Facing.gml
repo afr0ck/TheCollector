@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Function
 /// @DnDVersion : 1
 /// @DnDHash : 6F3016CE
-/// @DnDArgument : "funcName" "set_face"
-function set_face() 
+/// @DnDArgument : "funcName" "scr_Facing"
+function scr_Facing() 
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

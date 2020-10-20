@@ -212,5 +212,5 @@ if (l0E0562BB_0)
 /// @DnDVersion : 1
 /// @DnDHash : 0E67E73F
 /// @DnDArgument : "caption" ""Testing Grounds: ""
-/// @DnDArgument : "var" "canAttack"
-draw_text(0, 0, string("Testing Grounds: ") + string(canAttack));
+/// @DnDArgument : "var" "hspeed"
+draw_text(0, 0, string("Testing Grounds: ") + string(hspeed));
