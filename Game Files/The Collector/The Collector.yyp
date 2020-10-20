@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spr_Sign","path":"sprites/spr_Sign/spr_Sign.yy",},"order":14,},
     {"id":{"name":"spr_bgTree2","path":"sprites/spr_bgTree2/spr_bgTree2.yy",},"order":4,},
     {"id":{"name":"spr_playerIdle","path":"sprites/spr_playerIdle/spr_playerIdle.yy",},"order":0,},
     {"id":{"name":"spr_bgTree1","path":"sprites/spr_bgTree1/spr_bgTree1.yy",},"order":2,},
@@ -17,7 +18,9 @@
     {"id":{"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},"order":1,},
     {"id":{"name":"scr_Facing","path":"scripts/scr_Facing/scr_Facing.yy",},"order":0,},
     {"id":{"name":"spr_playerJumpUp","path":"sprites/spr_playerJumpUp/spr_playerJumpUp.yy",},"order":7,},
+    {"id":{"name":"spr_bgTree3","path":"sprites/spr_bgTree3/spr_bgTree3.yy",},"order":13,},
     {"id":{"name":"scr_WallCollisionCheck","path":"scripts/scr_WallCollisionCheck/scr_WallCollisionCheck.yy",},"order":1,},
+    {"id":{"name":"rm_Level1","path":"rooms/rm_Level1/rm_Level1.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -34,6 +37,7 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"rm_Level1","path":"rooms/rm_Level1/rm_Level1.yy",},
     {"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
   ],

@@ -1,5 +1,4 @@
 {
-  "name": "til_groundSet",
   "spriteId": {
     "name": "spr_groundSet",
     "path": "sprites/spr_groundSet/spr_groundSet.yy",
@@ -109,6 +108,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "til_groundSet",
   "tags": [],
   "resourceType": "GMTileSet",
 }
