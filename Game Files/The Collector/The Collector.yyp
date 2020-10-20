@@ -37,8 +37,8 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},
     {"name":"rm_Level1","path":"rooms/rm_Level1/rm_Level1.yy",},
+    {"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},
     {"name":"rm_Level2","path":"rooms/rm_Level2/rm_Level2.yy",},
   ],
   "Folders": [

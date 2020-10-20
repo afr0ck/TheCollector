@@ -37,7 +37,7 @@ if(jumpCounter < 2)
 	/// @DnDVersion : 1
 	/// @DnDHash : 413DD890
 	/// @DnDParent : 400AD387
-	/// @DnDArgument : "speed" "-10"
+	/// @DnDArgument : "speed" "-11"
 	/// @DnDArgument : "type" "2"
-	vspeed = -10;
+	vspeed = -11;
 }
