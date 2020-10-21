@@ -11,6 +11,7 @@
     {"id":{"name":"spr_playerAttack","path":"sprites/spr_playerAttack/spr_playerAttack.yy",},"order":12,},
     {"id":{"name":"til_groundSet","path":"tilesets/til_groundSet/til_groundSet.yy",},"order":0,},
     {"id":{"name":"spr_Collision","path":"sprites/spr_Collision/spr_Collision.yy",},"order":5,},
+    {"id":{"name":"rm_Skubby","path":"rooms/rm_Skubby/rm_Skubby.yy",},"order":4,},
     {"id":{"name":"rm_Level2","path":"rooms/rm_Level2/rm_Level2.yy",},"order":3,},
     {"id":{"name":"spr_playerJumpDown","path":"sprites/spr_playerJumpDown/spr_playerJumpDown.yy",},"order":8,},
     {"id":{"name":"spr_playerRun","path":"sprites/spr_playerRun/spr_playerRun.yy",},"order":6,},
@@ -37,9 +38,10 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"rm_Skubby","path":"rooms/rm_Skubby/rm_Skubby.yy",},
+    {"name":"rm_Level2","path":"rooms/rm_Level2/rm_Level2.yy",},
     {"name":"rm_Level1","path":"rooms/rm_Level1/rm_Level1.yy",},
     {"name":"rm_Test","path":"rooms/rm_Test/rm_Test.yy",},
-    {"name":"rm_Level2","path":"rooms/rm_Level2/rm_Level2.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
