@@ -207,10 +207,3 @@ if (l0E0562BB_0)
 		draw_sprite_ext(spr_playerIdle, image_index, x, y, facing, 1, 0, $FFFFFF & $ffffff, 1);
 	}
 }
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
-/// @DnDVersion : 1
-/// @DnDHash : 0E67E73F
-/// @DnDArgument : "caption" ""Testing Grounds: ""
-/// @DnDArgument : "var" "hspeed"
-draw_text(0, 0, string("Testing Grounds: ") + string(hspeed));

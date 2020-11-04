@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0ce5898a-fb08-4a75-9760-311f40fdc893","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Visuals",
+    "path": "folders/Sprites/Visuals.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bgTree3",

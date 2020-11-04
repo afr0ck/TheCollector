@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c342c0b8-c121-410c-8b80-53042cdbf165","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Visuals",
+    "path": "folders/Sprites/Visuals.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_groundSet",

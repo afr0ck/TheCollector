@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7d5acb0c-95b5-416a-a35e-d7fda1b30594","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Visuals",
+    "path": "folders/Sprites/Visuals.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bgHill",
