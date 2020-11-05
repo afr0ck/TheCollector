@@ -10,3 +10,8 @@ Update 4 Nov 2020
 	- Restart y/n 
 	- Y key press for restart game
 	- N for quit game
+- TODO
+	- Finish level designs
+	- Add monsters to all levels
+	- Create paths for some flying monsters
+	- Add ruby for final level and victory event
