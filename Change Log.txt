@@ -1,0 +1,17 @@
+Update 4 Nov 2020
+- Re-worked player movementment animations to use "Set sprite" during a "Step" event rather than using "Draw Sprite Transformed" in a "Draw" event
+- HUD added
+	- Hearts shown
+	- Lives shown
+	- Coins counted
+- Door objects only appear on map when the player has 10 coins
+- Monsters move linearly and change direction based on invisible collision block (Like workshop 2)
+- Game over even set
+	- Restart y/n 
+	- Y key press for restart game
+	- N for quit game
+- TODO
+	- Finish level designs
+	- Add monsters to all levels
+	- Create paths for some flying monsters
+	- Add ruby for final level and victory event
