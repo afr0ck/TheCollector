@@ -14,13 +14,13 @@ __dnd_score = real(0);
 /// @DnDAction : YoYo Games.Instance Variables.Set_Lives
 /// @DnDVersion : 1
 /// @DnDHash : 3E018DB1
-/// @DnDArgument : "lives" "3"
+/// @DnDArgument : "lives" "1"
 
-__dnd_lives = real(3);
+__dnd_lives = real(1);
 
 /// @DnDAction : YoYo Games.Instance Variables.Set_Health
 /// @DnDVersion : 1
 /// @DnDHash : 5A9C8671
-/// @DnDArgument : "health" "hearts"
+/// @DnDArgument : "health" "5"
 
-__dnd_health = real(hearts);
+__dnd_health = real(5);
