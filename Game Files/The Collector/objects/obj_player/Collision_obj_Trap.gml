@@ -33,3 +33,18 @@ if(l1FFC6A16_0)
 	/// @DnDParent : 1FFC6A16
 	instance_destroy();
 }
+
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
+/// @DnDHash : 5150EA14
+/// @DnDArgument : "expr" "vspeed > 0 and y < other.y"
+if(vspeed > 0 and y < other.y)
+{
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 061715C2
+	/// @DnDParent : 5150EA14
+	/// @DnDArgument : "speed" "-10"
+	/// @DnDArgument : "type" "2"
+	vspeed = -10;
+}

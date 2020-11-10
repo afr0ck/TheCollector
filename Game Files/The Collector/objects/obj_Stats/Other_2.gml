@@ -1,9 +1,13 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 23CC94CC
+/// @DnDInput : 2
 /// @DnDArgument : "value" "false"
+/// @DnDArgument : "value_1" "false"
 /// @DnDArgument : "var" "game_over"
+/// @DnDArgument : "var_1" "game_win"
 global.game_over = false;
+global.game_win = false;
 
 /// @DnDAction : YoYo Games.Instance Variables.Set_Score
 /// @DnDVersion : 1

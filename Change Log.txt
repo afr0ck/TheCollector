@@ -1,17 +1,38 @@
 Update 4 Nov 2020
-- Re-worked player movementment animations to use "Set sprite" during a "Step" event rather than using "Draw Sprite Transformed" in a "Draw" event
-- HUD added
-	- Hearts shown
-	- Lives shown
-	- Coins counted
-- Door objects only appear on map when the player has 10 coins
-- Monsters move linearly and change direction based on invisible collision block (Like workshop 2)
-- Game over even set
-	- Restart y/n 
-	- Y key press for restart game
-	- N for quit game
++ Re-worked player movementment animations to use "Set sprite" during a "Step" event rather than using "Draw Sprite Transformed" in a "Draw" event
++ HUD added
+	+ Hearts shown
+	+ Lives shown
+	+ Coins counted
++ Door objects only appear on map when the player has 10 coins
++ Monsters move linearly and change direction based on invisible collision block (Like workshop 2)
++ Game over even set
+	+ Restart y/n 
+	+ Y key press for restart game
+	+ N for quit game
 - TODO
 	- Finish level designs
 	- Add monsters to all levels
 	- Create paths for some flying monsters
 	- Add ruby for final level and victory event
+
+
+Update 9 Nov 2020
++ All monster objects added
+	+ Damage variables added for varied monster damage
+	+ Monster show health bars after hit for brief moment
+		+ Damage offset was set to account for using Instance Health of 100
+		+ I.E Slime HP = 20. Damage offset is (100/20) * 10
+			- This means the player jump does 10 damage to the monster which has 20 HP but on a scale from 0-100 so Instance Health works
+	+ Mushrooms squish breifly upon getting stepped on
++ Cleaned up some messy looking code
+	+ Added comments for anything a little more involved
+
+- TODO
+	- Finish all levels
+		- To include new monster objects added
+	- Win screen
+	---- OPTIONALS ----
+	- Flight paths for flying monsters
+	- Breakable vase for extra health / lives
+	

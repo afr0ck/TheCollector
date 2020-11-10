@@ -1,6 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 48256824
+/// @DnDComment : Get easy variable for player facing for later use
 /// @DnDArgument : "script" "scr_Facing"
 /// @DnDSaveInfo : "script" "scr_Facing"
 script_execute(scr_Facing);
@@ -15,6 +16,7 @@ image_xscale = facing;
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
 /// @DnDHash : 0DB87F8F
+/// @DnDComment : If not moving left or right set hspeed to 0 for idle
 /// @DnDArgument : "key" "ord("D")"
 /// @DnDArgument : "not" "1"
 var l0DB87F8F_0;
@@ -43,6 +45,7 @@ if (!l0DB87F8F_0)
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 /// @DnDVersion : 1
 /// @DnDHash : 76F0B3AE
+/// @DnDComment : Special circumstances while enter is NOT pressed
 /// @DnDArgument : "key" "vk_enter"
 /// @DnDArgument : "not" "1"
 var l76F0B3AE_0;
@@ -122,6 +125,7 @@ if (!l76F0B3AE_0)
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6478E202
+/// @DnDComment : Checks vspeed for upward movement $(13_10)to check for jump and double jump sprites
 /// @DnDArgument : "var" "vspeed"
 /// @DnDArgument : "op" "1"
 if(vspeed < 0)
@@ -164,6 +168,7 @@ if(vspeed < 0)
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 022E4946
+/// @DnDComment : Check downward movement for falling sprite
 /// @DnDArgument : "var" "vspeed"
 /// @DnDArgument : "op" "2"
 if(vspeed > 0)
@@ -181,6 +186,7 @@ if(vspeed > 0)
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 /// @DnDVersion : 1
 /// @DnDHash : 0125E798
+/// @DnDComment : Enter for attack functionality and sprites
 /// @DnDArgument : "key" "vk_enter"
 var l0125E798_0;
 l0125E798_0 = keyboard_check_pressed(vk_enter);
@@ -225,6 +231,7 @@ if (l0125E798_0)
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 5C589785
+/// @DnDComment : Collision code to check obj_player collision mask$(13_10)against specific tile layer.$(13_10)$(13_10)Code was implemented before Workshop 2 and understanding$(13_10)of objects as collision for gravity.$(13_10)$(13_10)This allows you to just paint with specific collision tiles$(13_10)rather than using objects for every collision spot
 /// @DnDArgument : "script" "scr_WallCollisionCheck"
 /// @DnDSaveInfo : "script" "scr_WallCollisionCheck"
 script_execute(scr_WallCollisionCheck);

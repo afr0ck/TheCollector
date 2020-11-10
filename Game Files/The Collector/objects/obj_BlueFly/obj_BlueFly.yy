@@ -26,10 +26,10 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"hsp","path":"objects/obj_Slime/obj_Slime.yy",},"objectId":{"name":"obj_Slime","path":"objects/obj_Slime/obj_Slime.yy",},"value":"-4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"monster_health","path":"objects/obj_Slime/obj_Slime.yy",},"objectId":{"name":"obj_Slime","path":"objects/obj_Slime/obj_Slime.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"hit_sprite","path":"objects/obj_Slime/obj_Slime.yy",},"objectId":{"name":"obj_Slime","path":"objects/obj_Slime/obj_Slime.yy",},"value":"spr_BlueFlyHurt","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"death_object","path":"objects/obj_Slime/obj_Slime.yy",},"objectId":{"name":"obj_Slime","path":"objects/obj_Slime/obj_Slime.yy",},"value":"obj_BlueFlyDeath","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hit_sprite","path":"objects/obj_Slime/obj_Slime.yy",},"objectId":{"name":"obj_Slime","path":"objects/obj_Slime/obj_Slime.yy",},"value":"spr_BlueFlyHurt","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"monster_health","path":"objects/obj_Slime/obj_Slime.yy",},"objectId":{"name":"obj_Slime","path":"objects/obj_Slime/obj_Slime.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hsp","path":"objects/obj_Slime/obj_Slime.yy",},"objectId":{"name":"obj_Slime","path":"objects/obj_Slime/obj_Slime.yy",},"value":"-4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Monsters",
