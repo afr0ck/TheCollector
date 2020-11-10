@@ -23,9 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_Goblin","path":"objects/obj_Goblin/obj_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"death_object","path":"objects/obj_Slime/obj_Slime.yy",},"objectId":{"name":"obj_Slime","path":"objects/obj_Slime/obj_Slime.yy",},"value":"obj_GoblinDeath","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},

@@ -116,17 +116,3 @@ if(winner)
 	/// @DnDSaveInfo : "sprite" "spr_GameWin"
 	draw_sprite(spr_GameWin, 0, camera_get_view_width(view_camera[0])  / 2, camera_get_view_height(view_camera[0])  / 2);
 }
-
-/// @DnDAction : YoYo Games.Rooms.Get_Current_Room
-/// @DnDVersion : 1
-/// @DnDHash : 774A98D3
-/// @DnDArgument : "var" "abc"
-abc = room;
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
-/// @DnDVersion : 1
-/// @DnDHash : 5D03BBFA
-/// @DnDArgument : "x" "50"
-/// @DnDArgument : "y" "100"
-/// @DnDArgument : "var" "abc"
-draw_text(50, 100, string("Caption: ") + string(abc));
